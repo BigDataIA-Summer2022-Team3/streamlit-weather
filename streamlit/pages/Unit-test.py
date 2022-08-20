@@ -14,7 +14,7 @@ authenticator = stauth.Authenticate(usernames, usernames, hashed_passwords, "str
 
 if st.session_state["authentication_status"]:
     st.title(" Unit tests for APIs")
-    HtmlFile = open("./html/pytest_report.html", 'r')
+    HtmlFile = open("../html/pytest_report.html", 'r')
     source_code = HtmlFile.read() 
     components.html(source_code, height = 800)
     authenticator.logout('Logout', 'sidebar')
