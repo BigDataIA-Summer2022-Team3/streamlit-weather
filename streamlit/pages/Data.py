@@ -20,13 +20,13 @@ if st.session_state["authentication_status"]:
 
     with tab1:
         st.header("Generate Data")
-        HtmlFile = open("./pages/DataClean.html", 'r')
+        HtmlFile = open("./html/DataClean.html", 'r')
         source_code = HtmlFile.read() 
         components.html(source_code, height = 5000)
 
     with tab2:
         st.header("Train Model")
-        HtmlFile2 = open("./pages/model.html", 'r')
+        HtmlFile2 = open("./html/model.html", 'r')
         source_code2 = HtmlFile2.read() 
         components.html(source_code2, height = 14000)
 
