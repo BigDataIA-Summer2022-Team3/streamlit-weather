@@ -14943,7 +14943,7 @@ body[data-format='mobile'] .jp-OutputArea-child .jp-OutputArea-output {
 
 
 
-</html>''', height = 5000)
+</html>''', width = 600, height = 5000)
 
     with tab2:
         st.header("Train Model")
@@ -31823,7 +31823,7 @@ Rain
 
 
 </html>
-''', height = 14000)
+''', width =1000, height = 16000)
 
     with tab3:
         st.header("Data report")

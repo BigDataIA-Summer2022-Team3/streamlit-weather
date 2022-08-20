@@ -335,7 +335,7 @@ function filterTable(elem) { // eslint-disable-line no-unused-vars
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>''', height = 800)
+            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>''', height = 1200)
     authenticator.logout('Logout', 'sidebar')
 
 else:
